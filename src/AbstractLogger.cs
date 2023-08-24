@@ -22,11 +22,6 @@ namespace src
         public const int DEBUG=2;
         public const int ERROR=3;
 
-        public AbstractLogger(AbstractLogger _nextLogger)
-        {
-            nextLogger = _nextLogger;
-        }
-
         public void SetNextLogger(AbstractLogger _logger)
         {
             nextLogger=_logger;
